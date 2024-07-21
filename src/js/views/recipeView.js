@@ -1,5 +1,6 @@
 import icons from 'url:../../img/icons.svg';
-import { Fraction } from 'fractional';
+import fracty from 'fracty';
+// import { Fraction } from 'fractional'; (does not work with deploying  , bruh)
 import View from './view';
 
 class RecipeView extends View {
@@ -108,7 +109,7 @@ class RecipeView extends View {
               <div class="recipe__quantity">${
                 !ingredient.quantity
                   ? ''
-                  : new Fraction(ingredient.quantity).toString()
+                  : fracty(ingredient.quantity).toString()
               }</div>
               <div class="recipe__description">
                 <span class="recipe__unit">${ingredient.unit}</span>
