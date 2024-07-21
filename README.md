@@ -1,13 +1,13 @@
-Forkify project
+# Forkify project
 
-recipe application with custom recipe upload :)
+Recipe application with custom recipe upload :)
 
-other features includes :-
+# other features includes :-
 
-bookmarking your recipe
+- bookmarking your recipe
 
-searching for recipes from over 10000 recipes
+- searching for recipes from over 10000 recipes
 
-pagination for convenient browsing experince
+- pagination for convenient browsing experince
 
-and others...
+- and others...
